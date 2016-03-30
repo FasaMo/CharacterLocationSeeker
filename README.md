@@ -2,6 +2,7 @@
 Figure out the rect of a character in UILabel, with the given character index.
 There is another way to do the same thing with a UITextView, you can check the demo.
 
+[相关blog](http://www.jianshu.com/p/c26893bd0f48)
 # Installation
 `pod 'CharacterLocationSeeker', '~> 0.0.3'`
 
