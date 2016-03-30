@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CharacterLocationSeeker"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Figure out the rect of a certain character in UILabel."
   s.description  = <<-DESC
 		   Figure out the rect of a character in UILabel, with the given character index.
@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://weibo.com/FasaMo"
 
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/FasaMo/CharacterLocationSeeker.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/FasaMo/CharacterLocationSeeker.git", :tag => s.version }
 
-  s.source_files  = "CharacterLocationSeeker/*.{h,m}"
+  s.source_files  = "CharacterLocationSeeker/CharacterLocationSeeker.{h,m}"
 
   s.requires_arc = true
 end
